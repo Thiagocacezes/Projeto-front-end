@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Index Responsive</title>
+    <link rel="stylesheet" href="./ProjetoFlag/Style/headerResonse.css">
+    <link rel="stylesheet" href="./ProjetoFlag/Style/footer.css">
+    <link rel="stylesheet" href="./ProjetoFlag/Style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-area">
+            <a href="./index.html">
+                <h1 class="logo"><span>TCMob</span></h1>
+            </a>
+        </div>
+        <nav class="desktop-menu">
+            <ul>
+                <li><a href="./index.html"><u>Home</u></a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</li>
+                <li>
+                    <a href="./login.html"><button><u>Login Usuário</u></button></a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Clico aqui -->
+        <input type="checkbox" id="check">
+        <!----------------------------------------MENU HAMBURGER----------------->
+
+        <label for="check" class="labelButton">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </label>
+        <nav class="mobile-menu">
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        <u>Home</u>
+                    </a>
+                </li>
+                <li>
+                    <a href="./blog.html">
+                        <u>Blog</u>
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        <u>Contacto</u>
+                    </a>
+                </li>
+                <li>
+                    <a href="./login.html"><button class="buttonResp">Usuário Login</button></a>
+                </li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <!-------------------------------------------COMEÇO DO MAIN--------------------------------------------------------------------------->
+    <main>
+        <section>
+
+            <div class="gallery-img">
+
+                <div class="items">
+
+                    <div class="item item-active">
+                        <img src="./ProjetoFlag/img/banner-3.jpeg">
+                        <h2><u> TCMob</u> seu jornal web diário</h2>
+                        <p><span>O primeiro jornal específico na área do mercado imobiliário da web</span></p>
+                        <a href="./contact.html"><button id="p-carro">Leia mais ></button></a>
+                    </div>
+                    <div class="item item-hide">
+                        <img src="./ProjetoFlag/img/banner-1.jpeg">
+                        <h2><span>Sempre com os melhores artigos</span></h2>
+                        <p><span>Noticias diariamente atualizadas para o melhor chega até você</span></p>
+                        <a href="./contact.html"><button id="p-carro">Leia mais ></button></a>
+
+                    </div>
+                    <div class="item item-hide">
+                        <img src="./ProjetoFlag/img/banner-2.jpeg">
+                        <h2><span>Jornal Imobiliário Web</span></h2>
+                        <p><span>O jornal específico Prêmiado do ano </span></p>
+                        <a href="./contact.html"><button id="p-carro">Leia mais ></button></a>
+                    </div>
+                </div>
+
+                <input type="button" class="item-hide prevButton" value="Prev">
+                <input type="button" value="Next" class="nextButton">
+            </div>
+        </section>
+        <hr>
+        <!---------------------------------------------------------destaque e paragrafo--------------------------------------------------------->
+        <div class="para">
+            <div>
+                <p class="paragrafo"><u>Destaques</u></p>
+            </div>
+            <div>
+                <p class="paragrafo"><u>Artigos selecionados</u></p>
+            </div>
+
+        </div>
+        <!---------------------------------------------------------------------------ARTIGOS----------------------------------->
+        <section>
+            <div class="container">
+                <div class="image-container">
+                    <h2>Destaque do dia</h2>
+                    <a href="./blog.html"><img src="./ProjetoFlag/img/infobanner.jpeg" alt="tcmob"></a>
+                    <a href="./blog.html">
+                        <h2><u>Ainda menos imóveis à disposição.</u></h2>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur illo odio exercitationem
+                        voluptatibus maxime excepturi error similique eaque enim minus distinctio earum.</p>
+                    <a href="./blog.html"><button>Ver mais ></button></a>
+                </div>
+                <div class="news-container">
+                    <a href="./blog.html"><img src="./ProjetoFlag/img/footer/project-1.jpeg" alt=""></a>
+                    <a href="./blog.html">
+                        <h2><u>Notícias do dia</u></h2>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="news-container">
+                    <a href="./blog.html"><img src="./ProjetoFlag/img/project-4.jpeg" alt=""></a>
+                    <a href="./blog.html">
+                        <h2><u>Notícias da semana</u></h2>
+                    </a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="news-container">
+                    <a href="./blog.html"><img src="./ProjetoFlag/img/project-3.jpeg" alt=""></a>
+                    <a href="./blog.html">
+                        <h2><u>Notícias do mês</u></h2>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+        <!-----------------------------------------------------------------foto com divs----------------------------------------------->
+
+        <section>
+            <div class="purple-line"></div>
+            <div class="text-div">
+                <img src="./ProjetoFlag/img/banner1.png" alt="">
+            </div>
+            <div class="purple-line2"></div>
+        </section>
+        <hr>
+        <!--------------------------------------------CATEGORIAS-------------------------------------------------------------->
+        <section>
+            <div>
+                <p class="cat"><u> Categorias</u></p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-2">
+                <div class="box">
+                    <a href="#" class="social-icon1"><i class="fas fa-newspaper icon"></i></a>
+                    <div class="content">
+                        <h3><u>Venda</u></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="#" class="social-icon1"><i class="fas fa-newspaper icon"></i></a>
+                    <div class="content">
+                        <h3><u>Design</u></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="#" class="social-icon1"><i class="fas fa-newspaper icon"></i></a>
+                    <div class="content">
+                        <h3><u>Exterior</u></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="#" class="social-icon1"><i class="fas fa-newspaper icon"></i></a>
+                    <div class="content">
+                        <h3><u>Interior</u></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------------------------------------IMAGEM-SOBREPOSTA------------------------------------------>
+        <hr>
+        <section class="container-3">
+            <div class="imag3">
+                <img src="./ProjetoFlag/img/img-sobreposta.jpeg" alt="" class="">
+            </div>
+            <div class="imag4">
+                <h2 class="h1"><strong><u>TCMob</u> prêmio jornal do ano de 2023</strong></h2>
+                <p class="p1">O primeiro jornal específico na área do mercado imobiliário da web</p>
+                <button class="b1">Veja ></button>
+            </div>
+        </section>
+        <hr>
+        <!-------------------------------------------------------COLUNISTAS--------------------------------->
+        <div>
+            <p class="cat"><u>Colaboradores</u></p>
+        </div>
+        <section>
+            <div class="container-4">
+                <div class="box-2">
+                    <img src="./ProjetoFlag/img/colun10.png" alt="Colunista 2">
+                    <h3>Luana Gomes</h3>
+                    <p>Engenheira/Colunista</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+
+                    </div>
+                </div>
+                <div class="box-2">
+                    <img src="./ProjetoFlag/img/colun21.png" alt="Colunista 2">
+                    <h3>Silvia Fragga</h3>
+                    <p>Engenheira/Colunista</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="box-2">
+                    <img src="./ProjetoFlag/img/colun22.png" alt="Colunista 3">
+                    <h3>Ana Botelho</h3>
+                    <p>Designer interiores/Colunista</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="box-2">
+                    <img src="./ProjetoFlag/img/colun20.png" alt="Colunista 1">
+                    <h3>Caio Neves</h3>
+                    <p>Paisagista/Redator</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+        </section>
+        <!---------------------------test------------------------------------------------------------>
+        <!--<section>
+                <div class="gallery-img2">
+                    <div class="items2">
+                        <div class="item2 item-active2">
+                            <h3><u>Venda</u></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <img src="./ProjetoFlag/img/tcmob-icon.png" alt="">
+                        </div>
+                        <div class="item2">
+                            <h3><u>Arrendamento</u></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <img src="./ProjetoFlag/img/homeicom.png" alt="">
+                        </div>
+                        <div class="item2">
+                            <h3><u>Exterior</u></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <img src="./ProjetoFlag/img/tcmob-icon.png" alt="">
+                        </div>
+                        <div class="item2">
+                            <h3><u>Interior</u></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <img src="./ProjetoFlag/img/homeicom.png" alt="">
+                        </div>
+                    </div>
+
+                    <input type="button" class="prevButton2 item-hide2" value="Prev2">
+                    <input type="button" value="Next2" class="nextButton2">
+                </div>
+            </section>-->
+        <!------------------------------------------TAB---------AINDA NAO FUNCIONAL---------------------------->
+        <section>
+            <div class="tab-container">
+                <div id="tab1" class="tab">
+                    <h4>Vantagens</h4>
+                </div>
+                <div id="tab2" class="tab">
+                    <h4>Adesão</h4>
+                </div>
+                <div id="tab3" class="tab">
+                    <h4>Planos</h4>
+                </div>
+            </div>
+            <div class="contentTab tab1 hide">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugiat inventore distinctio
+                    debitis, modi harum recusandae tempore fuga praesentium enim eum sapiente dolores est repellat odio
+                    quos velit cupiditate dolorem.
+
+                </p>
+
+            </div>
+            <div class="contentTab tab2 hide">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptatem unde! Mollitia
+                    vero debitis,
+
+                </p>
+
+            </div>
+            <div class="contentTab tab3 hide">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo labore vero quos placeat voluptatibus
+                    aliquam iure accusamus minus ratione aut, quo obcaecati atque, nisi nemo culpa adipisci quia eius
+                    quam!
+
+
+                </p>
+
+            </div>
+        </section>
+
+        <!----------------------------------------------------FOOTER------------------------------------------------------>
+        <hr>
+        <footer>
+            <div class="address_1">
+                <label class="nome" for="nome">
+                    Inscreva-se <u>Agora</u>
+                </label>
+                <input type="text" name="nome" class="nome">
+                <button>Submit</button>
+            </div>
+
+            <div class="menu">
+                <h4 class="menu2">Menu</h4>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./blog.html"><span>Blog</span></a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="social-media">
+                <h4>Social media</h4>
+
+                <ul>
+                    <li> <a href="https://www.instagram.com/"><img src="./ProjetoFlag/img/footer/instagram.png"
+                                alt=""></a>
+                    </li>
+                    <li> <a href="https://pt-pt.facebook.com/"><img src="./ProjetoFlag/img/footer/facebook.png"
+                                alt=""></a>
+                    </li>
+                    <li> <a href="https://twitter.com/?lang=pt"><img src="./ProjetoFlag/img/footer/twitter.png"
+                                alt=""></a>
+                    </li>
+                    <li> <a href="https://www.pexels.com/pt-br/"><img src="./ProjetoFlag/img/footer/pexels.png"
+                                alt=""></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="privacy-policy">
+                &copy; 2023 All Rights Reserved.
+            </div>
+        </footer>
+        <script src="./ProjetoFlag/Js/carrocel.js"></script>
+
+
+
+</body>
+
+
+
+</html>
