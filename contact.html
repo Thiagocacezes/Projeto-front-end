@@ -21,8 +21,8 @@
         <nav class="desktop-menu">
             <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./blog.html"><u>Blog</u></a></li>
-                <li><a href="./contact.html">Contact</li>
+                <li><a href="./blog2.html">Blog</a></li>
+                <li><a href="./contact.html"><u>Contact</u></li>
                 <li>
                     <a href="./login.html"><button><u>Login Usuário</u></button></a>
                 </li>
@@ -49,7 +49,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="./blog.html">
+                    <a href="./blog2.html">
                         <u>Blog</u>
                     </a>
                 </li>
@@ -78,6 +78,41 @@
             </div>
         </section>
         <section>
+            <div class="divForm">
+                <h1>Cadastre-se</h1>
+                <h2>É Rápido e fácil</h2>
+                <p role="alert" class="error-message hide">Mensagem de erro</p>
+                <form id="myForm" method="post" action="formulario.html">
+                    <!-- Campos do formulário aqui -->
+                    <div>
+                        <p><u>Nome e Apelido:</u></p>
+                    </div>
+                    <div>
+                        <input class="form" type="text" name="first_name" placeholder="Nome Próprio" aria-label="Nome">
+                        <input class="form-1" type="text" name="last_name" placeholder="Apelido" aria-label="Apelido">
+                    </div>
+                    <div>
+                        <p><u>Email:</u></p>
+                    </div>
+                    <div>
+                        <input class="form-2" type="email" name="email" placeholder="Insira seu email"
+                            aria_label="Email">
+                    </div>
+                    <div>
+                        <p><u>Mensagem:</u></p>
+                    </div>
+                    <div>
+                        <textarea class="form-3" name="message" placeholder="Insira sua mensagem"
+                            aria-label="Mensagem"></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit">Cadastre-se</button>
+                    </div>
+                </form>
+                <p class="success-message hide">Formulário enviado com sucesso!</p>
+            </div>
+        </section>
+        <!--<section>
             <div class="divForm">
                 <h1>Cadastre-se</h1>
                 <h2>É Rápido e fácil</h2>
@@ -166,42 +201,42 @@
     </main>-->
 
 
-    <footer>
-        <div class="address_1">
-            <label class="nome" for="nome">Insira o seu em@il:</label>
-            <input type="text" name="nome" class="nome">
-            <button>Submit</button>
-        </div>
+        <footer>
+            <div class="address_1">
+                <label class="nome" for="nome">Insira o seu em@il:</label>
+                <input type="text" name="nome" class="nome">
+                <button>Submit</button>
+            </div>
 
-        <div class="menu">
-            <h4 class="menu2">Menu</h4>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./blog.html"><span>Blog</span></a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </div>
+            <div class="menu">
+                <h4 class="menu2">Menu</h4>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./blog2.html"><span>Blog</span></a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
 
-        <div class="social-media">
-            <h4>Social media</h4>
+            <div class="social-media">
+                <h4>Social media</h4>
 
-            <ul>
-                <li> <a href="https://www.instagram.com/"><img src="./include/img/footer/instagram.png" alt=""></a>
-                </li>
-                <li> <a href="https://pt-pt.facebook.com/"><img src="./include/img/footer/facebook.png" alt=""></a>
-                </li>
-                <li> <a href="https://twitter.com/?lang=pt"><img src="./include/img/footer/twitter.png" alt=""></a>
-                </li>
-                <li> <a href="https://www.pexels.com/pt-br/"><img src="./include/img/footer/pexels.png" alt=""></a>
-                </li>
-            </ul>
-        </div>
+                <ul>
+                    <li> <a href="https://www.instagram.com/"><img src="./include/img/footer/instagram.png" alt=""></a>
+                    </li>
+                    <li> <a href="https://pt-pt.facebook.com/"><img src="./include/img/footer/facebook.png" alt=""></a>
+                    </li>
+                    <li> <a href="https://twitter.com/?lang=pt"><img src="./include/img/footer/twitter.png" alt=""></a>
+                    </li>
+                    <li> <a href="https://www.pexels.com/pt-br/"><img src="./include/img/footer/pexels.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="privacy-policy">
-            &copy; 2023 All Rights Reserved.
-        </div>
-    </footer>
-    <script src="./include/Js/form.js"></script>
+            <div class="privacy-policy">
+                &copy; 2023 All Rights Reserved.
+            </div>
+        </footer>
+        <script src="./include/Js/form.js"></script>
 </body>
 
 

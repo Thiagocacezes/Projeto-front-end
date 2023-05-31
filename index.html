@@ -22,7 +22,7 @@
         <nav class="desktop-menu">
             <ul>
                 <li><a href="./index.html"><u>Home</u></a></li>
-                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./blog2.html">Blog</a></li>
                 <li><a href="./contact.html">Contact</li>
                 <li>
                     <a href="./login.html"><button><u>Login Usuário</u></button></a>
@@ -50,7 +50,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="./blog.html">
+                    <a href="./blog2.html">
                         <u>Blog</u>
                     </a>
                 </li>
@@ -70,29 +70,25 @@
     <!-------------------------------------------COMEÇO DO MAIN--------------------------------------------------------------------------->
     <main>
         <section>
-
             <div class="gallery-img">
-
                 <div class="items">
-
                     <div class="item item-active">
                         <img src="./include/img/banner-3.jpeg">
-                        <h2><u> TCMob</u> seu jornal web diário</h2>
+                        <h2><u>TCMob</u> seu jornal web diário</h2>
                         <p><span>O primeiro jornal específico na área do mercado imobiliário da web</span></p>
-                        <a href="./contact.html"><button id="p-carro">Leia mais ></button></a>
+                        <a href="./blog2.html"><button class="p-carro">Leia mais ></button></a>
                     </div>
                     <div class="item item-hide">
                         <img src="./include/img/banner-1.jpeg">
                         <h2><span>Sempre com os melhores artigos</span></h2>
                         <p><span>Noticias diariamente atualizadas para o melhor chega até você</span></p>
-                        <a href="./contact.html"><button id="p-carro">Leia mais ></button></a>
-
+                        <a href="./blog2.html"><button class="p-carro">Leia mais ></button></a>
                     </div>
                     <div class="item item-hide">
                         <img src="./include/img/banner-2.jpeg">
                         <h2><span>Jornal Imobiliário Web</span></h2>
-                        <p><span>O jornal específico Prêmiado do ano </span></p>
-                        <a href="./contact.html"><button id="p-carro">Leia mais ></button></a>
+                        <p><span>O jornal específico Prêmiado do ano</span></p>
+                        <a href="./blog2.html"><button class="p-carro">Leia mais ></button></a>
                     </div>
                 </div>
 
@@ -100,7 +96,7 @@
                 <input type="button" value="Next" class="nextButton">
             </div>
         </section>
-        <hr>
+
         <!---------------------------------------------------------destaque e paragrafo--------------------------------------------------------->
         <div class="para">
             <div>
@@ -116,38 +112,44 @@
             <div class="container">
                 <div class="image-container">
                     <h2>Destaque do dia</h2>
-                    <a href="./blog.html"><img src="./include/img/infobanner.jpeg" alt="tcmob"></a>
-                    <a href="./blog.html">
+                    <a href="./blog2.html"><img src="./include/img/infobanner.jpeg" alt="tcmob"></a>
+                    <a href="./blog2.html">
                         <h2><u>Ainda menos imóveis à disposição.</u></h2>
                     </a>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur illo odio exercitationem
                         voluptatibus maxime excepturi error similique eaque enim minus distinctio earum.</p>
-                    <a href="./blog.html"><button>Ver mais ></button></a>
+                    <a href="./blog2.html"><button>Ver mais ></button></a>
                 </div>
-                <div class="news-container">
-                    <a href="./blog.html"><img src="./include/img/footer/project-1.jpeg" alt=""></a>
-                    <a href="./blog.html">
-                        <h2><u>Notícias do dia</u></h2>
-                    </a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+               <hr class="hr">
+                <div class="news">
+                    <div class="news-container">
+                        <a href="./blog2.html"><img src="./include/img/foto blog.png" alt=""></a>
+                        <a href="./blog2.html">
+                            <h2><u>Notícias do dia</u></h2>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <hr class="hr-2">
+                    <div class="news-container">
+                        <a href="./blog2.html"><img src="./include/img/banner1.png" alt=""></a>
+                        <a href="./blog2.html">
+                            <h2><u>Notícias da semana</u></h2>
+                        </a>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <hr class="hr-2">
+                    <div class="news-container">
+                        <a href="./blog2.html"><img src="./include/img/infobanner.jpeg" alt=""></a>
+                        <a href="./blog2.html">
+                            <h2><u>Notícias do mês</u></h2>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
                 </div>
-                <div class="news-container">
-                    <a href="./blog.html"><img src="./include/img/project-4.jpeg" alt=""></a>
-                    <a href="./blog.html">
-                        <h2><u>Notícias da semana</u></h2>
-                    </a>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="news-container">
-                    <a href="./blog.html"><img src="./include/img/project-3.jpeg" alt=""></a>
-                    <a href="./blog.html">
-                        <h2><u>Notícias do mês</u></h2>
-                    </a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
+
             </div>
         </section>
-        <!-----------------------------------------------------------------Tabs nao funcional----------------------------------------------->
+        <!-----------------------------------------------------------------Tabs funcional----------------------------------------------->
         <section>
             <div class="tab-container">
                 <div id="tab1" class="tab">
@@ -207,30 +209,30 @@
 
         <section>
             <div class="container-2">
-                <div class="box">
+                <div class="boxOne">
                     <a href="#" class="social-icon1"><i class="fas fa-newspaper icon"></i></a>
-                    <div class="content">
+                    <div class="contentOne">
                         <h3><u>Venda</u></h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-                <div class="box">
+                <div class="boxOne">
                     <a href="#" class="social-icon1"><i class="fas fa-newspaper icon"></i></a>
-                    <div class="content">
+                    <div class="contentOne">
                         <h3><u>Design</u></h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-                <div class="box">
+                <div class="boxOne">
                     <a href="#" class="social-icon1"><i class="fas fa-newspaper icon"></i></a>
-                    <div class="content">
+                    <div class="contentOne">
                         <h3><u>Exterior</u></h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-                <div class="box">
+                <div class="boxOne">
                     <a href="#" class="social-icon1"><i class="fas fa-newspaper icon"></i></a>
-                    <div class="content">
+                    <div class="contentOne">
                         <h3><u>Interior</u></h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
@@ -330,7 +332,7 @@
                     <input type="button" value="Next2" class="nextButton2">
                 </div>
             </section>-->
-       
+
 
         <!----------------------------------------------------FOOTER------------------------------------------------------>
         <hr>
@@ -347,7 +349,7 @@
                 <h4 class="menu2">Menu</h4>
                 <ul>
                     <li><a href="./index.html">Home</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./blog2.html">Blog</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </div>
