@@ -5,120 +5,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./include/styles/headerResonse.css">
     <link rel="stylesheet" href="./include/styles/contact.css">
     <link rel="stylesheet" href="./include/styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
-    <header>
-        <div class="logo-area">
-            <a href="./index.html">
-                <h1 class="logo"><span>TCMob</span></h1>
-            </a>
-        </div>
-        <nav class="desktop-menu">
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./blog2.html">Blog</a></li>
-                <li><a href="./contact.html"><u>Contact</u></li>
-                <li>
-                    <a href="./login.html"><button><u>Login Usuário</u></button></a>
-                </li>
-            </ul>
-        </nav>
+    </head>
 
-        <!-- Clico aqui -->
-        <input type="checkbox" id="check">
-        <!----------------------------------------MENU HAMBURGER----------------->
-
-        <label for="check" class="labelButton">
-            <div class="hamburger">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+    <body>
+        <header>
+            <div class="logo-area">
+                <a href="./index.html">
+                    <h1 class="logo"><span>TCMob</span></h1>
+                </a>
             </div>
-        </label>
-        <nav class="mobile-menu">
-            <ul>
-                <li>
-                    <a href="./index.html">
-                        <u>Home</u>
-                    </a>
-                </li>
-                <li>
-                    <a href="./blog2.html">
-                        <u>Blog</u>
-                    </a>
-                </li>
-                <li>
-                    <a href="./contact.html">
-                        <u>Contacto</u>
-                    </a>
-                </li>
-                <li>
-                    <a href="./login.html"><button class="buttonResp">Login Usuário</button></a>
-                </li>
+            <nav class="desktop-menu">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./blog2.html"><u>Blog</u></a></li>
+                    <li><a href="./contact.html">Contact</li>
+                    <li>
+                        <a href="./login.html"><button><u>Login Usuário</u></button></a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Clico aqui -->
+            <input type="checkbox" id="check">
+            <!----------------------------------------MENU HAMBURGER----------------->
+
+            <label for="check" class="labelButton">
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </label>
+            <nav class="mobile-menu">
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                            <u>Home</u>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./blog2.html">
+                            <u>Blog</u>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">
+                            <u>Contacto</u>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./login.html"><button class="buttonResp">Login Usuário</button></a>
+                    </li>
 
 
-            </ul>
-        </nav>
-    </header>
-    <hr>
-    <main>
-        <section class="container-3">
-            <div class="imag3">
-                <img src="./include/img/img-sobreposta.jpeg" alt="" class="">
-            </div>
-            <div class="imag4">
-                <h2 class="h1"><strong>Cadastre-se e junte-se a nós</strong></h2>
-                <p class="p1">Artigos para manter-se informado todas as suas manhãs</p>
-            </div>
-        </section>
-        <section>
-            <div class="divForm">
-                <h1>Cadastre-se</h1>
-                <h2>É Rápido e fácil</h2>
-                <p role="alert" class="error-message hide">Mensagem de erro</p>
-                <form id="myForm" method="post" action="formulario.html">
-                    <!-- Campos do formulário aqui -->
-                    <div>
-                        <p><u>Nome e Apelido:</u></p>
+                </ul>
+            </nav>
+        </header>
+        <main class="page-wrapper">
+            <div class="my-container">
+                <section class="row welcome-row">
+                    <div class="content">
+                        <h2>Bem vindo  <span>Cadastre-se</span> </h2>
+                        <p>Experimente o mais premiado jornal web imobiliário... </p>
                     </div>
-                    <div>
-                        <input class="form" type="text" name="first_name" placeholder="Nome Próprio" aria-label="Nome">
-                        <input class="form-1" type="text" name="last_name" placeholder="Apelido" aria-label="Apelido">
+                </section>
+                
+                <section>
+                    <div class="divForm">
+                        <h1 class="h1">Cadastre-se</h1>
+                        <h2 class="h2">É rápido e fácil</h2>
+                        
+                        <form id="myForm" method="post" action="formulario.html">
+                            <!-- Campos do formulário aqui -->
+                            <div>
+                                <p><u>Nome e Apelido:</u></p>
+                            </div>
+                            <div>
+                                <input class="form" type="text" name="first_name" placeholder="Nome Próprio"
+                                    aria-label="Nome">
+                                <input class="form-1" type="text" name="last_name" placeholder="Apelido"
+                                    aria-label="Apelido">
+                            </div>
+                            <div>
+                                <p><u>Email:</u></p>
+                            </div>
+                            <div>
+                                <input class="form-2" type="email" name="email" placeholder="Insira seu email"
+                                    aria_label="Email">
+                            </div>
+                            <div>
+                                <p><u>Mensagem:</u></p>
+                            </div>
+                            <div>
+                                <textarea class="form-3" name="message" placeholder="Insira sua mensagem"
+                                    aria-label="Mensagem"></textarea>
+                            </div>
+                            <div class="form-submit">
+                                <button type="submit">Cadastre-se</button>
+                            </div>
+                        </form>
                     </div>
-                    <div>
-                        <p><u>Email:</u></p>
-                    </div>
-                    <div>
-                        <input class="form-2" type="email" name="email" placeholder="Insira seu email"
-                            aria_label="Email">
-                    </div>
-                    <div>
-                        <p><u>Mensagem:</u></p>
-                    </div>
-                    <div>
-                        <textarea class="form-3" name="message" placeholder="Insira sua mensagem"
-                            aria-label="Mensagem"></textarea>
-                    </div>
-                    <div class="form-submit">
-                        <button type="submit">Cadastre-se</button>
-                    </div>
-                </form>
-            </div>
-        </section>
-
+                </section>
+        </main>
         <footer>
             <div class="address_1">
-                <label class="nome" for="nome">Insira o seu em@il:</label>
-                <input type="text" name="nome" class="nome">
-                <button>Submit</button>
+                <form id="emailForm">
+                    <label class="nome" for="email">
+                        <h2><u>TCMob</u></h2>
+                    </label>
+                    <input type="email" name="email" id="emailInput" required>
+                    <button type="submit">Enviar Email</button>
+                </form>
             </div>
-
             <div class="menu">
                 <h4 class="menu2">Menu</h4>
                 <ul>
@@ -147,8 +154,7 @@
                 &copy; 2023 All Rights Reserved.
             </div>
         </footer>
-        <script src="./include/Js/form.js"></script>
-</body>
-
+        <script src="./include/js/form.js"></script>
+    </body>
 
 </html>

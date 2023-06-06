@@ -72,19 +72,19 @@
         <section>
             <div class="gallery-img">
                 <div class="items">
-                    <div class="item item-active">
+                    <div class="carousel-item item item-active">
                         <img src="./include/img/banner-3.jpeg">
                         <h2><u>TCMob</u> seu jornal web diário</h2>
                         <p><span>O primeiro jornal específico na área do mercado imobiliário da web</span></p>
                         <a href="./blog2.html"><button class="p-carro">Leia mais ></button></a>
                     </div>
-                    <div class="item item-hide">
+                    <div class="carousel-item item item-hide">
                         <img src="./include/img/banner-1.jpeg">
                         <h2><span>Sempre com os melhores artigos</span></h2>
                         <p><span>Noticias diariamente atualizadas para o melhor chega até você</span></p>
                         <a href="./blog2.html"><button class="p-carro">Leia mais ></button></a>
                     </div>
-                    <div class="item item-hide">
+                    <div class="carousel-item item item-hide">
                         <img src="./include/img/banner-2.jpeg">
                         <h2><span>Jornal Imobiliário Web</span></h2>
                         <p><span>O jornal específico Prêmiado do ano</span></p>
@@ -99,11 +99,11 @@
 
         <!---------------------------------------------------------destaque e paragrafo--------------------------------------------------------->
         <div class="para">
-            <div>
-                <p class="paragrafo"><u>Destaques</u></p>
+            <div class="paragrafo">
+                <h2>Destaques</h2>
             </div>
-            <div>
-                <p class="paragrafo"><u>Artigos selecionados</u></p>
+            <div class="paragrafo">
+                <h2>Todas as notícias</h2>
             </div>
 
         </div>
@@ -114,9 +114,11 @@
                     <h2>Destaque do dia</h2>
                     <a href="./blog2.html"><img src="./include/img/infobanner.jpeg" alt="tcmob"></a>
                     <a href="./blog2.html">
-                        <h2><u>Ainda menos imóveis à disposição.</u></h2>
+                        <h2>Ainda menos imóveis à disposição.</h2>
                     </a>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur illo odio exercitationem
+                        voluptatibus maxime excepturi error similique eaque enim minus distinctio earum.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur illo odio exercitationem
                         voluptatibus maxime excepturi error similique eaque enim minus distinctio earum.</p>
                     <a href="./blog2.html"><button>Ver mais ></button></a>
                 </div>
@@ -129,7 +131,7 @@
                         </a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
-                    <hr class="hr-2">
+                    
                     <div class="news-container">
                         <a href="./blog2.html"><img src="./include/img/banner1.png" alt=""></a>
                         <a href="./blog2.html">
@@ -137,7 +139,7 @@
                         </a>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
-                    <hr class="hr-2">
+                    
                     <div class="news-container">
                         <a href="./blog2.html"><img src="./include/img/infobanner.jpeg" alt=""></a>
                         <a href="./blog2.html">
@@ -162,7 +164,7 @@
                     <h4>Planos</h4>
                 </div>
             </div>
-            <div class="contentTab tab1 hide">
+            <div class="contentTab tab1 ">
                 <h3 class="cat"><u>Vantágens</u></h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fugiat inventore distinctio
@@ -365,11 +367,13 @@
         <hr>
         <footer>
             <div class="address_1">
-                <label class="nome" for="nome">
-                    Inscreva-se <u>Agora</u>
-                </label>
-                <input type="text" name="nome" class="nome">
-                <button>Submit</button>
+                <form id="emailForm">
+                    <label class="nome" for="email">
+                        <h2><u>TCMob</u></h2>
+                    </label>
+                    <input type="email" name="email" id="emailInput" required>
+                    <button type="submit">Enviar Email</button>
+                </form>
             </div>
 
             <div class="menu">
@@ -400,8 +404,7 @@
                 &copy; 2023 All Rights Reserved.
             </div>
         </footer>
-        <script src="./include/js/carrocel.js"></script>
-        <script src="./include/js/tab.js"></script>
+        <script src="./include/js/mainIndex.js"></script>
     </main>
 
 
